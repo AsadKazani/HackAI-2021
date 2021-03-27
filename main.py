@@ -2,7 +2,7 @@ from discord.ext import commands
 import discord
 import openai
 import json
-openai.api_key = "sk-nVMk9jmsaBiYHqPwRsblzO5R3uvgBC39GwZ1NoRy"
+openai.api_key = ""
 openai.Engine.retrieve("davinci")
 
 
@@ -77,4 +77,4 @@ async def on_message(message):
     await message.channel.send(ans)
 
 
-client.run('ODI1NDUwMDQxMDAzMDgxNzY4.YF-GQQ.AafQpKSsjXr1zt-1ld88BJYu5tA')
+client.run('')
